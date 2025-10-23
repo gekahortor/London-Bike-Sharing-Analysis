@@ -102,7 +102,7 @@ A Chi-square test of independence was conducted to determine whether week type (
 
 An exploratory analysis was conducted to identify peak demand hours for each day of the week. Red bars indicate the hours with the highest demand.
 
-<img src="images/Peak_hour.png" alt="peak hour" width="1000">
+<img src="Peak_hour.png" alt="peak hour" width="1000">
 ---
 
 Using the conventional threshold of α = 0.05, p-values less than 0.05 indicate statistically significant differences between days. the Kruskal-Wallis–Wallis test was conducted to determine whether peak hour demand differed significantly across days in the bike-sharing dataset. The results (H = 284.03, p < 0.001) indicate a statistically significant difference in median peak hour demand among the days of the week. This means that at least one day shows a different demand distribution compared to the others, suggesting temporal variability in bike usage patterns across days.
@@ -149,6 +149,7 @@ These findings provide actionable insights for urban planners to enhance cycling
 
 
 ---
+
 
 
 
