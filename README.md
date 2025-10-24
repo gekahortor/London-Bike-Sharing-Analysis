@@ -53,6 +53,8 @@ Exploratory Analysis: Exploratory analysis was conducted to examine key usage pa
 
 Hypothesis testing: Statistical hypothesis tests were conducted to validate observed patterns and assess relationships within the data. Tests employed included the D'Agostino-Pearson normality test to assess distribution normality, the Mann-Whitney U test for comparing two independent groups, the Kruskal-Wallis test for comparing multiple groups, and the Chi-square test for examining categorical associations. 
 
+👉 [View the Jupyter Notebook](https://your-link-here)
+
 ---
 
 ## **Results**
@@ -149,6 +151,7 @@ These findings provide actionable insights for urban planners to enhance cycling
 
 
 ---
+
 
 
 
