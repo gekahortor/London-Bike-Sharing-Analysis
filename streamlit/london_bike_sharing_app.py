@@ -9,9 +9,14 @@ from scipy import stats
 import scikit_posthocs as sp
 import streamlit as st
 from streamlit_folium import st_folium
+import gdown
+import certifi
+import os
 
 # Sidebar Table of Contents
-section = st.sidebar.radio("📑 TABLE OF CONTENTS", [
+sidebar_title = "TABLE OF CONTENTS"
+st.sidebar.title(sidebar_title)
+section = st.sidebar.radio('Sections:', [
      "📄 Abstract",
     "🌍 Introduction",
     "🎯 Objectives",
@@ -155,9 +160,22 @@ if section == "📊 Results":
     # ==============================
     # READING THE DATASET
     # ==============================
-    BikeSharing = pd.read_csv(
-        r"C:\Users\DELL\Documents\TECHCRUSH\DATA ANALYTICS\CAPSTONE PROJECT\Sample Datasets\London Bike-Share Usage Dataset\LondonBikeJourneyAug2023.csv"
-    )
+    # 1. Read the dataset
+
+   
+
+# Fix certificate issue
+    os.environ['REQUESTS_CA_BUNDLE'] = certifi.where()
+
+    @st.cache_data
+    def load_data():
+        file_id = "1TiZLuNseUohhV-0PFbABQAhJwE9t_IyR"
+        url = f"https://drive.google.com/uc?id={file_id}"
+        output = "BikeSharing.csv"
+        gdown.download(url, output, quiet=False)
+        return pd.read_csv(output)
+
+    BikeSharing = load_data()
 
     # ==============================
     # CLEANING THE DATASET
