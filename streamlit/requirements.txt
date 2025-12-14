@@ -9,6 +9,6 @@ from scipy import stats
 import scikit_posthocs as sp
 import streamlit as st
 import gdown
-import os
-import certifi
+
+
 
