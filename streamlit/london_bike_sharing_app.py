@@ -8,7 +8,6 @@ from scipy.stats import chi2_contingency
 from scipy import stats
 import scikit_posthocs as sp
 import streamlit as st
-from streamlit_folium import st_folium
 import gdown
 # import certifi
 # import os
@@ -721,3 +720,4 @@ if section == '✅ Conclusion':
 # END OF THE APP
 
 # ==============================
+
