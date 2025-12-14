@@ -27,7 +27,7 @@ section = st.sidebar.radio('Sections:', [
 ])
 
 # Main Title (always shown)
-st.markdown("<h1 style='text-align: center; font-family: Candara;'>London Bike Sharing: August 2023 Report & Dashboard</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; font-family: Fivo Sans;'>London Bike Sharing: August 2023 Report & Dashboard</h1>", unsafe_allow_html=True)
 
 
 if section == "📄 Abstract":
@@ -41,7 +41,7 @@ if section == "📄 Abstract":
     'exploratory data analysis, and hypothesis testing. Key findings reveal that peak demand occurs between 5 pm and 7 pm,' \
     ' most rides last less than 30 minutes, and demand on weekdays is statistically significantly higher than on weekends.'
 
-    st.markdown(f"<p style='text-align: justify;'>{abstract}</p>", unsafe_allow_html=True)
+    st.markdown(f"<p style='text-align: justify, font-family: Candara;'>{abstract}</p>", unsafe_allow_html=True)
 
 if section == "🌍 Introduction":
     st.markdown("<h3 style='text-align: left;'>Introduction</h3>", unsafe_allow_html=True)
@@ -163,7 +163,7 @@ if section == "📊 Results":
    
 
 # Fix certificate issue
-    os.environ['REQUESTS_CA_BUNDLE'] = certifi.where()
+   # os.environ['REQUESTS_CA_BUNDLE'] = certifi.where()
 
     @st.cache_data
     def load_data():
@@ -719,4 +719,5 @@ if section == '✅ Conclusion':
 # END OF THE APP
 
 # ==============================
+
 
