@@ -27,7 +27,7 @@ section = st.sidebar.radio('Sections:', [
 ])
 
 # Main Title (always shown)
-st.markdown("<h1 style='text-align: center; font-family: Fivo Sans;'>London Bike Sharing: August 2023 Report & Dashboard</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; font-family: Candara;'>London Bike Sharing: August 2023 Report & Dashboard</h1>", unsafe_allow_html=True)
 
 
 if section == "📄 Abstract":
@@ -719,3 +719,4 @@ if section == '✅ Conclusion':
 # END OF THE APP
 
 # ==============================
+
