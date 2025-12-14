@@ -10,8 +10,8 @@ import scikit_posthocs as sp
 import streamlit as st
 from streamlit_folium import st_folium
 import gdown
-import certifi
-import os
+# import certifi
+# import os
 
 # Sidebar Table of Contents
 sidebar_title = "TABLE OF CONTENTS"
@@ -165,7 +165,7 @@ if section == "📊 Results":
    
 
 # Fix certificate issue
-    os.environ['REQUESTS_CA_BUNDLE'] = certifi.where()
+    #os.environ['REQUESTS_CA_BUNDLE'] = certifi.where()
 
     @st.cache_data
     def load_data():
@@ -719,4 +719,5 @@ if section == '✅ Conclusion':
 
 # ==============================
 # END OF THE APP
+
 # ==============================
