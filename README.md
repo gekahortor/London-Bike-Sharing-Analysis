@@ -6,9 +6,16 @@ Climate change and health challenges associated with poor physical fitness have 
 
 </div>
 
+### **Additions**
 
+<div style="text-align: justify">
+
+This repository has the source code for london bike sharing analysis and the london bike sharing app as well as the files containing the required packages and configuration for the application
+
+</div>
 
 👉 [View the Jupyter Notebook](https://github.com/gekahortor/London-Bike-Sharing-Analysis/blob/2acf01a34fb7e8a24b48fd19800bb58e5bacc5f8/London_bike_sharing_analysis_august_2023_code.ipynb)
 
 ---
+
 
