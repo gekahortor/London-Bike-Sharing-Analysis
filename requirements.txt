@@ -6,4 +6,5 @@ scipy
 scikit-posthocs
 streamlit
 gdown
+altair
 
