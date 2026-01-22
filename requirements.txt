@@ -6,4 +6,6 @@ scipy
 scikit-posthocs
 streamlit
 gdown
+altair==4.2.2
+
 
