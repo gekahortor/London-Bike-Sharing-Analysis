@@ -9,13 +9,13 @@ primaryColor="slateBlue"
 backgroundColor="white"
 secondaryBackgroundColor="darkSeaGreen"
 baseRadius="full"
-font = "Candara"
+font = "sans serif"
 headingfont = "Bradley Hand ITC "
 
 [theme.sidebar]
 backgroundColor="Cornsilk"
 secondaryBackgroundColor="Cornsilk"
 baseRadius="none"
-font = "Candara"
+font = "sans serif"
 headingfont = "Bradley Hand ITC"
 
